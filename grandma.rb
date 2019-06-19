@@ -1,8 +1,9 @@
 def speak_to_grandma(youSaid)
-    if (youSaid == youSaid.upcase)
-        puts "NO, NOT SINCE 1938!\n"        
-    elsif (youSaid == 'I LOVE YOU GRANDMA!')
-        puts "I LOVE YOU TOO PUMPKIN!\n"
+    if (youSaid == "I LOVE YOU GRANDMA!")
+        return "I LOVE YOU TOO PUMPKIN!"
+    elsif (youSaid == youSaid.upcase())
+        return "NO, NOT SINCE 1938!"        
     else
-        puts "HUH?! SPEAK UP, SONNY!\n"
+        return "HUH?! SPEAK UP, SONNY!"
+    end
 end
